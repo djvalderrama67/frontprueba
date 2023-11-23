@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const port = number(process.env["port"]) || 8000;
+const url = `${process.env.API_URL}/${props.match.params.id}`;
 
 export default axios.create({
     baseURL: API_URL,
