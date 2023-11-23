@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = `${process.env.API_URL}/${props.match.params.id}`;
+const API_URL = 'https://trasteat-bfdad022aa39.herokuapp.com/';
 
 export default axios.create({
     baseURL: API_URL,
